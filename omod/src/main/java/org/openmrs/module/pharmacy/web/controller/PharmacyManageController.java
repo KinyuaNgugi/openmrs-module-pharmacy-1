@@ -366,12 +366,7 @@ public class  PharmacyManageController {
             dispenseDrug.setId(dispenseId);
             dispenseDrug.setPaymentStatus(payStatus);
             dispenseDrug.setIssueStatus(true);
-          /*  PayDrug payDrug= new PayDrug();
-            payDrug.setPatientID(patientId);
-            payDrug.setDateOfPayment(new Date());
-            payDrug.setPaid(true);
-            payDrug.setTotalAmount(totalAmount);
-*/
+
 
             dispenseDrugService.updateMyDispensedDrug(dispenseDrug);
 
